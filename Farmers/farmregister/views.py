@@ -7,7 +7,6 @@ def funroute3(request):
     regdata = Register.objects.all()
     print(regdata)
     if request.method=="POST":
-        print("hassss")
         name=request.POST.get('name','')
         email=request.POST.get('email','')
         adress=request.POST.get('adress','')
