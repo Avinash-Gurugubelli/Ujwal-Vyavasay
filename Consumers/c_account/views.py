@@ -1,7 +1,7 @@
 from django.shortcuts import render, HttpResponse
 from Home.models import Register
 # Create your views here.
-def account(request):
+def c_account(request):
     name = request.user
     account = Register.objects.filter(name=name)
     acc = Register.objects.get(name=name)

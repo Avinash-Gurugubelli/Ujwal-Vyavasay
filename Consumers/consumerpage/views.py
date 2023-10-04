@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 
-def funroute3(request):
+def consumerfunction(request):
     return render(request,'consumerpage/consumerpage.html')
 
 def buy(request):

@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from  Home.models import Order
 
-def funroute3(request):   
+def consorderfunction(request):   
     name = request.user
     orders = Order.objects.all()
     length = len(orders)
