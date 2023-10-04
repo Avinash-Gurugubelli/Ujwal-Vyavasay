@@ -6,4 +6,5 @@ def funroute3(request):
     return render(request,'consumerpage/consumerpage.html')
 
 def buy(request):
+    #logic
     return render(request,'consumerpage/buy.html')
