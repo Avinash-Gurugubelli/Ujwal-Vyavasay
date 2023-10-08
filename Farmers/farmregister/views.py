@@ -3,7 +3,7 @@ from django.contrib.auth.models import User
 from django.shortcuts import redirect, render  ,HttpResponse
 from django.contrib import messages   
 
-def funroute3(request):
+def farmregisterfunction(request):
     regdata = Register.objects.all()
     print(regdata)
     if request.method=="POST":

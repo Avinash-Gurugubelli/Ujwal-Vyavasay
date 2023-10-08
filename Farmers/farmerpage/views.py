@@ -2,5 +2,5 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 
-def funroute3(request):
+def farmerfunction(request):
     return render(request,'farmerpage/farmerpage.html')

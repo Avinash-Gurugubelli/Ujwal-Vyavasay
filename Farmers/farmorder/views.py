@@ -3,7 +3,7 @@ from django.http import HttpResponse
 from  Home.models import Order
 from  Home.models import Upload
 
-def funroute3(request):   
+def farmorderfunction(request):   
     name = request.user
     upload = Upload.objects.all()
     length = len(upload)
