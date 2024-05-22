@@ -4,7 +4,7 @@ from django.contrib.auth.models import User
 from django.shortcuts import redirect, render  ,HttpResponse
 from django.contrib import messages  
 
-def funroute3(request):
+def consregisterfunction(request):
     if request.method=="POST":
         name=request.POST.get('name','')
         email=request.POST.get('email','')
